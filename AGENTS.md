@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Keep JobForge UI pages and shared presentation in React route/component modules; isolate typed calls to the existing FastAPI contract in a browser-safe API adapter so the original backend remains authoritative.
